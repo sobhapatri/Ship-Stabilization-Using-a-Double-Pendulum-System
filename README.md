@@ -1,14 +1,14 @@
-# ⚓️ Ship Stabilization Using a Double Pendulum System  
+#  Ship Stabilization Using a Double Pendulum System  
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 This project investigates the use of a **double pendulum system** as a stabilizer to mitigate ship motion caused by ocean waves. The approach is grounded in classical mechanics and modern control theory, aiming to restore equilibrium through intelligent feedback mechanisms.
 
 ---
 
-## 🔧 Key Objectives
+##  Key Objectives
 
 - Model the dynamics of a ship stabilizer based on a double pendulum mechanism.
 - Linearize the inherently nonlinear system using small-angle approximations.
@@ -20,7 +20,7 @@ This project investigates the use of a **double pendulum system** as a stabilize
 
 ---
 
-## 📐 System Modeling
+##  System Modeling
 
 The double pendulum system was simplified using the following assumptions:
 
@@ -34,7 +34,7 @@ The system is represented in **state-space form** and treated as a **Single-Inpu
 
 ---
 
-## 💻 Simulation & Results
+##  Simulation & Results
 
 MATLAB simulations were conducted to compare the performance of LQR and Pole Placement controllers.
 
@@ -51,14 +51,14 @@ MATLAB simulations were conducted to compare the performance of LQR and Pole Pla
 
 ---
 
-## 📽️ Animation
+##  Animation
 
 An animated MATLAB simulation of the pendulum’s motion is included and can be viewed here:  
 🔗 [Double Pendulum Simulation](https://drive.google.com/file/d/1GfUJmM17u52X6-HfGSz8fUG08kgEYxtH/view?usp=sharing)
 
 ---
 
-## 📌 Key Learnings
+##  Key Learnings
 
 - Controller selection involves trade-offs between speed, overshoot, and energy use.
 - Small-angle approximations help simplify nonlinear systems.
